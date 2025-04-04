@@ -86,19 +86,19 @@ body {
 
 form {
   background-color: #fff;
-  padding: 0 4rem 2rem 4rem; /* Упростил padding */
+  padding: 0 4rem 2rem 4rem; 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 20vw 20vw;
   gap: 1rem;
   margin-bottom: 1rem;
-  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4); /* Только снизу */
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4); 
 }
 
 .form-group {
   display: flex;
   flex-direction: column;
-  width: 80%; /* Узкие инпуты (80% от колонки) */
-  margin-right: auto; /* Смещение к левому краю */
+  width: 80%; 
+  margin-right: auto; 
 }
 
 label {
